@@ -1,0 +1,12 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.startupsystems.volunteerlist",
+        "sha256_cert_fingerprints": ["63:92:69:1B:B8:53:31:9F:98:8A:22:4F:5D:30:BC:38:96:B9:EC:F2:5A:AB:A1:8D:6F:29:A6:B7:96:1C:A7:B0"]
+      }
+    }
+  ]
+
+

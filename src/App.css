@@ -1,0 +1,138 @@
+* {
+  font-family: "Amiri", serif;
+} 
+
+.App {
+  text-align: center;
+}
+
+.App-left {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.listItems {
+  list-style: none;
+}
+
+.listItem:hover {
+    background-color: gainsboro;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label,
+form h3 {
+  margin: 10px 0 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  position:fixed;
+  bottom:0;
+  left:0;
+  }
+  .icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: black;
+  background-color: white;
+  font-size: 36px;
+  }
+  .icon-bar a {
+    background: #FAFAFA;
+    border-top: 1px solid #F6F6F6;
+  }
+  .icon-bar a:hover {
+    background-color: silver;
+  }
+
+  .logo {
+    margin-top: -25px;
+    margin-left: 8px;
+  }
+
+  .logo-shift {
+    margin-left: 14px;
+  }
+  
+  .wideFix {
+    overflow-x: hidden;
+  }
+
+  .input-group > div {
+    flex-grow: 1;
+  }
+  .input-group-addon {
+    padding-left: 10px;
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  .locationsContainer {
+    text-align:center;
+  }
+
+  .location{
+    color: blue;
+    display:inline;
+    margin: 10px;
+   
+  }
+
+  .location:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+  .image:hover{
+    cursor: pointer;
+  }
+
+  .select{
+    width: 340px;
+    height: 30px;
+  }
